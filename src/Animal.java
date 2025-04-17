@@ -20,13 +20,18 @@ class Cat extends Animal{
     }
 }
 
+
+// a class bird extends Animal class
 class Bird extends Animal{
+
+//overriding makesound in bird
+
     @Override
     public void makeSound(){
         System.out.println(" The Bird says :Chirp!");
     }
-
+//Fly method
     public void fly(){
-        System.out.println(" The Bird does flying!");
+        System.out.println(" The Bird does : flying!");
     }
 }
